@@ -25,7 +25,6 @@ import java.util.List;
 public class MessageCenterActivity extends BaseActivity implements SlideView.OnSlideListener{
 
     SlideListView mMsgListView;
-
     private SlideAdapter mMsgListAdapter;
     private List<Message> messages = new ArrayList<>();
 
